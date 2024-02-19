@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/45degreee_fabric.png);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main, nav {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+header {
+    background-color: #f2f2f2;
+    display: flex; 
+    padding: 20px;
+    align-items: space-evenly;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+       display: flex; 
+}
+
+.link {
+    margin: 0 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main {
+    box-sizing: border-box; 
+    margin: 20px;
+    width: 400px;
+    background-color: #f2f2f2;
+}
+
+main img {
+    float: left; 
+    margin-right: 20px;
+    width: 200px; 
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside h2 {
+    margin-bottom: 10px; 
+    text-align: left;
+}
+
+aside img {
+    display: inline-block;
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+}
